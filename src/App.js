@@ -5,7 +5,7 @@ import "./index.css"
 import CurrentWeather from './components/current-weather/currentWeather';
 import { WEATHER_API_KEY, WEATHER_API_URL } from './api';
 import { useState } from 'react';
-import { Forecast } from './components/forecast/Forecast';
+
 
 
 function App() {
@@ -33,9 +33,10 @@ function App() {
   console.log(forecast);
   return (
     <div className="Container">
+      <h1>Daily Weather App</h1><p>By: Kelechi Nwosu</p>
       <Search onSearchChange={handleOnSearchChange} />
       {currentWeather && <CurrentWeather data={currentWeather} />}
-      <Forecast />
+
     </div>
   );
 }
