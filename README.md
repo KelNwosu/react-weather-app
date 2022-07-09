@@ -1,3 +1,7 @@
+Project I created to practice API retrieval with React. Styled in CSS 
+Link to live website: https://kelechi-daily-weather.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
